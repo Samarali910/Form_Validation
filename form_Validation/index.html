@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form_container">
+            <h1>complete form validation in java script</h1>
+
+            <span>username:</span>
+            <input id="username" type="text" required>
+            <span id="error" class="error_color"></span>
+           
+            
+            <span>password:</span>
+            <input id="pass" type="password" required>
+            <span id="pass_error"  class="error_color" ></span>
+
+            <span>confirmpassword:</span>
+            <input id="confirm_password" type="password" required>
+            <span id="confirm_password_error"  class="error_color"></span>
+
+            <span>Mobile Number:</span>
+            <input id="mobile" type="number">
+            <span id="mobile_error"  class="error_color"></span>
+
+            <span>Email:</span>
+            <input id="email" type="email" required>
+            <span id="email_error"  class="error_color"></span>
+
+            <button onclick="validate()">click me</button>
+        </form>  
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
